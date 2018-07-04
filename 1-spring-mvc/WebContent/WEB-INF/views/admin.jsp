@@ -8,10 +8,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-
-	<h1>* About *</h1>
+	<h1>-[Admin]-</h1>
 	Atributos model : <c:out value="${mensaje}" /><br>
 	Atributos model : <c:out value="${sessionScope.resultado}" />
-
 </body>
 </html>

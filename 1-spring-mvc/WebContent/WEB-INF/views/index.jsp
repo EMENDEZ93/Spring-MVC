@@ -13,5 +13,7 @@
 	
 	<a href='<c:url value="/about"/>' >About</a>
 	
+	Atributos model : <c:out value="${mensaje}" /> <br>
+	Atributos model : <c:out value="${sessionScope.resultado}" />
 </body>
 </html>
