@@ -58,7 +58,7 @@
   	<dependency>
   		<groupId>org.springframework</groupId>
   		<artifactId>spring-aop</artifactId>
-  		<version>4.3.18.RELEASE</version>
+  		<version>4.0.5.RELEASE</version>
   	</dependency>
   </dependencies>
 </project>
