@@ -12,8 +12,9 @@
 	<h1> =|Index|=</h1>
 	
 	<a href='<c:url value="/about"/>' >About</a>
+	<a href='<c:url value="/admin"/>' >Gestion Admin</a>
+	<br>
+	<c:out value="${adminForm}" /> 
 	
-	Atributos model : <c:out value="${mensaje}" /> <br>
-	Atributos model : <c:out value="${sessionScope.resultado}" />
 </body>
 </html>

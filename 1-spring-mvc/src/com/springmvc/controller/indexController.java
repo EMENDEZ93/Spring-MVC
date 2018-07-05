@@ -23,10 +23,4 @@ public class indexController {
 		return "about";
 	}
 	
-	@RequestMapping("/admin")
-	public String showAdmin(Model model) {
-		model.addAttribute("mensaje", "Spring mvc - admin");
-		return "admin";
-	}
-	
 }
