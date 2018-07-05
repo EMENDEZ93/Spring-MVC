@@ -28,6 +28,9 @@
 		</table>	
 	</sf:form>
 
+	<br>
+	<c:out value="${resultado}" ></c:out>
+
 	
 </body>
 </html>
