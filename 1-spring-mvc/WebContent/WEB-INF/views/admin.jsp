@@ -13,6 +13,9 @@
 	
 	<sf:form action="${pageContext.request.contextPath}/admin/save" method="post" commandName="admin" >
 		<table>
+		
+			<input name="estado" type="text" />
+		
 			<tr>
 				<td>Nombre</td>
 				<td> <sf:input path="nombre" type="text" /> </td>
