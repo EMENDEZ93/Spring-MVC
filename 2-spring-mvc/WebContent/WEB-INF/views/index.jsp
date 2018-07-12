@@ -10,9 +10,10 @@
 <body>
 <h1>SPRING FRAMEWORK</h1>
 
-<a href='<c:url value="/about" />'>Acerca de</a> <br>
-
-	Atributos del model <c:out value="${mensaje}"/> <br>
-	Atributos en Session <c:out value="${sessionScope.resultado}"/>
+	<a href='<c:url value="/about" />'>Acerca de</a> <br>
+	<a href='<c:url value="/admin" />'>Gestion Admin</a> <br>
+	
+	<c:out value="${adminForm}"/> <br>
+	
 </body>
 </html>
