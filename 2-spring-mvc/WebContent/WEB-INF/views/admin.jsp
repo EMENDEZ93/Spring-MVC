@@ -8,8 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>About</h1> <br>
-
+	<h1>Admin</h1> <br>
 	Atributos del model <c:out value="${mensaje}"/> <br>
 	Atributos en Session <c:out value="${sessionScope.resultado}"/>
 </body>
